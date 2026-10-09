@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Rounded Base -->
+  <rect width="32" height="32" rx="8" fill="url(#grad)" />
+  <!-- Medical Heart & Pulse Line Symbol -->
+  <path
+    d="M16 26.5s-9-5.5-9-12.5a5.5 5.5 0 0 1 9.5-3.6A5.5 5.5 0 0 1 25 14c0 7-9 12.5-9 12.5z"
+    fill="#ffffff"
+    fill-opacity="0.18"
+  />
+  <path
+    d="M7.5 15.5h4l2-4 3.5 8 2.5-5.5 1.5 2.5h3.5"
+    stroke="#ffffff"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#shadow)"
+  />
+  <circle cx="24.5" cy="8.5" r="2" fill="#38bdf8" />
+</svg>

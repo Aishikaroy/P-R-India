@@ -1,0 +1,12 @@
+{
+  "name": "pr-india-health-services-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix P.-R.-India-Health-Services-main run dev",
+    "build": "npm --prefix P.-R.-India-Health-Services-main run build",
+    "preview": "npm --prefix P.-R.-India-Health-Services-main run preview",
+    "test": "npm --prefix P.-R.-India-Health-Services-main run test",
+    "lint": "npm --prefix P.-R.-India-Health-Services-main run lint",
+    "format": "npm --prefix P.-R.-India-Health-Services-main run format"
+  }
+}
